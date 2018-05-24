@@ -47,6 +47,8 @@
 
 **1.11.** В конце каждого файла должна быть одна пустая строка.
 
+**1.12.** Используется синтаксис ES6/7: переменные объявляются только через ```const``` и ```let```, ```var``` не используется.
+
 [К началу](#contents)
 
 <a name="naming"></a>
@@ -173,6 +175,44 @@ const person = {
 const item = { id: 5 };
 const car = {id:10,name:'Dodge',color:'red'};
 const person = {id: 15, firstName: 'John', lastName: 'Smith', age: 30};
+```
+
+**7.4** Строковые литералы можно использовать в качестве ключей только в случае необходимости.
+
+**Правильно**
+```javascript
+const obj = {
+    id: 1
+    key: 2,
+    'item-key': 3
+};
+```
+**Неправильно**
+```javascript
+const obj = {
+    'id': 1
+    'key': 2,
+    'item-key': 3
+};
+```
+
+**7.5** Выравнивание не используется.
+
+**Правильно**
+```javascript
+const person = {
+    id: 1
+    name: 'John',
+    age: 20
+};
+```
+**Неправильно**
+```javascript
+const person = {
+    id:     1
+    name:   'John',
+    age:    20
+};
 ```
 
 [К началу](#contents)
