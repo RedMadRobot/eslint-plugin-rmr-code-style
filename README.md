@@ -58,6 +58,7 @@
 someVariable // Переменная
 methodOrFunction // Метод или функция
 instanceOfClass // Экземпляр класса
+CONSTANT_VARIABLE // Константа
 ```
 **2.1.** Переменные именуются в CamelCase.
 
