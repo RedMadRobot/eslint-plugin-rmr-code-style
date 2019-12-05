@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-rmr-code-style",
+  "version": "1.0.0",
+  "description": "<a name=\"contents\"></a> ## Оглавление [1. Общие правила;](#common)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.redmadrobot.com:web-frontend/docs/code-style.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
