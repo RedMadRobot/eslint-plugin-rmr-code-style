@@ -1,3 +1,21 @@
+<a name="eslint"></a>
+
+# Использование конфига eslint
+```
+npm i -D git@git.redmadrobot.com:web-frontend/docs/code-style.git
+```
+
+В файле `.eslintrc`:
+```
+"extends": [
+    "plugin:rmr-code-style/config"
+],
+```
+
+[Пример полного конфига](https://git.redmadrobot.com/web-frontend/docs/code-style/blob/master/example/.eslintrc.json)
+
+[К началу](#contents)
+
 # Правила оформления кода
 
 <a name="contents"></a>
@@ -45,9 +63,7 @@
 
 **1.10.** Конструкция ```with``` и метки ```label``` не используются.
 
-**1.11.** В конце каждого файла должна быть одна пустая строка.
-
-**1.12.** Используется синтаксис ES6/7: переменные объявляются только через ```const``` и ```let```, ```var``` не используется.
+**1.11.** Используется синтаксис ES6/7: переменные объявляются только через ```const``` и ```let```, ```var``` не используется.
 
 [К началу](#contents)
 
