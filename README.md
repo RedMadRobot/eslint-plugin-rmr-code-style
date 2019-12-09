@@ -6,7 +6,7 @@ npm i -D git@git.redmadrobot.com:web-frontend/docs/code-style.git
 ```
 
 В файле `.eslintrc`:
-```
+```json
 "extends": [
     "plugin:rmr-code-style/config"
 ],
@@ -14,12 +14,21 @@ npm i -D git@git.redmadrobot.com:web-frontend/docs/code-style.git
 
 [Пример полного конфига](https://git.redmadrobot.com/web-frontend/docs/code-style/blob/master/example/.eslintrc.json)
 
+<a name="tsconfig"></a>
+
+# Использование tsconfig
+```json
+// tsconfig.json
+"extends": "./node_modules/eslint-plugin-rmr-code-style/src/tsconfig.json",
+```
+
 [К началу](#contents)
 
 # Правила оформления кода
 
 <a name="contents"></a>
 ## Оглавление
+
 [1. Общие правила;](#common)
 
 [2. Именование;](#naming)
