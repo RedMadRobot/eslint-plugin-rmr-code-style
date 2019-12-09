@@ -1,11 +1,9 @@
-import codeStyle from './codeStyle.json';
+import codeStyle from './codeStyle';
+import tsconfig from './tsconfig.json';
 
 export = {
   configs: {
-    config: {
-      rules: {
-        "@typescript-eslint/ban-ts-ignore": "error"
-      }
-    }
+    config: codeStyle,
+    tsconfig
   }
 }
