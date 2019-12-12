@@ -1,8 +1,9 @@
 <a name="eslint"></a>
 
 # Использование конфига eslint
+Пакет находится в приватном репозитории Red Mad Robot
 ```
-npm i -D git@git.redmadrobot.com:web-frontend/docs/code-style.git
+npm i -D eslint-plugin-rmr-code-style
 ```
 
 В файле `.eslintrc`:

@@ -22,7 +22,6 @@ export default {
     "semi": ["error", "always"],
     "prefer-const": ["error"],
     "no-var": "error",
-    "camelcase": "error",
     "quotes": ["error", "single"],
     "space-in-parens": ["error", "never"],
     "arrow-parens": ["warn", "as-needed"],
