@@ -42,7 +42,7 @@ export default {
       }
     ],
     "no-unused-expressions": "error",
-    "no-unused-vars": "error",
+    
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
 
@@ -58,6 +58,7 @@ export default {
     "@typescript-eslint/prefer-includes": "error",
     "@typescript-eslint/promise-function-async": "error",
     "@typescript-eslint/require-await": "error",
+    "@typescript-eslint/no-unused-vars": [2, { args: 'none' }],
     "@typescript-eslint/type-annotation-spacing": [
       "error", 
       { 
