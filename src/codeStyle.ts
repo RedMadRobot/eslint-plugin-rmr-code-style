@@ -50,7 +50,7 @@ export default {
      * TypeScript
      */
 
-    "@typescript-eslint/array-type": "error",
+    "@typescript-eslint/array-type": ["error", { "default": "generic" }],
     "@typescript-eslint/camelcase": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     "@typescript-eslint/no-explicit-any": "warn",
