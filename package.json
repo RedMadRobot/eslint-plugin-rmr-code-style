@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-rmr-code-style",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Правила оформления кода, принятые в RMR",
   "main": "dist/index.js",
   "scripts": {

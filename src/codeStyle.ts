@@ -5,7 +5,7 @@ export default {
     /**
      * ES6
      */
-    
+
     "indent": [
       "error", 2,
       {
@@ -26,7 +26,7 @@ export default {
     "space-in-parens": ["error", "never"],
     "arrow-parens": ["warn", "as-needed"],
     "no-magic-numbers": [
-      "warn", 
+      "warn",
       {
         "ignoreArrayIndexes": true,
         "enforceConst": true
@@ -36,13 +36,13 @@ export default {
     "yoda": "error",
     "brace-style": ["error", "1tbs"],
     "no-extra-parens": [
-      "warn", "all", 
+      "warn", "all",
       {
         "ignoreJSX": "multi-line"
       }
     ],
     "no-unused-expressions": "error",
-    
+
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
 
@@ -52,7 +52,6 @@ export default {
 
     "@typescript-eslint/array-type": ["error", { "default": "generic" }],
     "@typescript-eslint/camelcase": "error",
-    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-floating-promises": "warn",
     "@typescript-eslint/prefer-includes": "error",
@@ -60,9 +59,9 @@ export default {
     "@typescript-eslint/require-await": "error",
     "@typescript-eslint/no-unused-vars": [2, { args: 'none' }],
     "@typescript-eslint/type-annotation-spacing": [
-      "error", 
-      { 
-        "before": false, 
+      "error",
+      {
+        "before": false,
         "after": true
       }
     ],
