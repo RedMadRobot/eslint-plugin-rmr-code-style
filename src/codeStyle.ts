@@ -19,7 +19,7 @@ export default {
     "eol-last": ["error", "always"],
     "max-len": ["error", {"code": 120}],
     "no-trailing-spaces": ["error"],
-    "semi": ["error", "always"],
+    "semi": "off",
     "prefer-const": ["error"],
     "no-var": "error",
     "quotes": ["error", "single"],
@@ -28,6 +28,7 @@ export default {
     "no-magic-numbers": [
       "warn",
       {
+        "ignore": [-1, 0, 1],
         "ignoreArrayIndexes": true,
         "enforceConst": true
       },
@@ -41,7 +42,10 @@ export default {
         "ignoreJSX": "multi-line"
       }
     ],
+    "object-curly-spacing": ["warn", "never"],
+    "array-bracket-spacing":["warn", "never"],
     "no-unused-expressions": "error",
+    "comma-dangle": ["warn", "always-multiline"],
 
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
@@ -50,7 +54,6 @@ export default {
      * TypeScript
      */
 
-    "@typescript-eslint/array-type": ["error", { "default": "generic" }],
     "@typescript-eslint/camelcase": "error",
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-floating-promises": "warn",
@@ -61,9 +64,19 @@ export default {
     "@typescript-eslint/type-annotation-spacing": [
       "error",
       {
-        "before": false,
-        "after": true
+        "before": true,
+        "after": true,
+        "overrides": {
+          "colon": {
+            "before": false,
+            "after": true
+          }
+        }
       }
+
     ],
+    "@typescript-eslint/semi": ["error"],
+    "@typescript-eslint/array-type": ["warn", { "default": "generic"}],
+
   }
 }
