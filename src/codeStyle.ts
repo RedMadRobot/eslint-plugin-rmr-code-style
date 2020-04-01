@@ -1,49 +1,50 @@
 export default {
-  "plugins": ["react", "@typescript-eslint", "import"],
-  "rules": {
-
+  plugins: ["react", "@typescript-eslint", "import"],
+  rules: {
     /**
      * ES6
      */
 
-    "indent": [
-      "error", 2,
+    indent: [
+      "error",
+      2,
       {
-        "SwitchCase": 1,
-        "MemberExpression": 1,
-        "ArrayExpression": 1,
-        "ObjectExpression": 1
-      },
+        SwitchCase: 1,
+        MemberExpression: 1,
+        ArrayExpression: 1,
+        ObjectExpression: 1
+      }
     ],
     "linebreak-style": ["error", "unix"],
     "eol-last": ["error", "always"],
-    "max-len": ["error", {"code": 120}],
+    "max-len": ["error", { code: 120 }],
     "no-trailing-spaces": ["error"],
-    "semi": "off",
+    semi: "off",
     "prefer-const": ["error"],
     "no-var": "error",
-    "quotes": ["error", "single"],
+    quotes: ["error", "single"],
     "space-in-parens": ["error", "never"],
     "arrow-parens": ["warn", "as-needed"],
     "no-magic-numbers": [
       "warn",
       {
-        "ignore": [-1, 0, 1],
-        "ignoreArrayIndexes": true,
-        "enforceConst": true
-      },
+        ignore: [-1, 0, 1],
+        ignoreArrayIndexes: true,
+        enforceConst: true
+      }
     ],
-    "eqeqeq": "error",
-    "yoda": "error",
+    eqeqeq: "error",
+    yoda: "error",
     "brace-style": ["error", "1tbs"],
     "no-extra-parens": [
-      "warn", "all",
+      "warn",
+      "all",
       {
-        "ignoreJSX": "multi-line"
+        ignoreJSX: "multi-line"
       }
     ],
     "object-curly-spacing": ["warn", "never"],
-    "array-bracket-spacing":["warn", "never"],
+    "array-bracket-spacing": ["warn", "never"],
     "no-unused-expressions": "error",
     "comma-dangle": ["warn", "always-multiline"],
 
@@ -60,23 +61,23 @@ export default {
     "@typescript-eslint/prefer-includes": "error",
     "@typescript-eslint/promise-function-async": "error",
     "@typescript-eslint/require-await": "error",
-    "@typescript-eslint/no-unused-vars": [2, { args: 'none' }],
+    "@typescript-eslint/no-unused-vars": [2, { args: "none" }],
     "@typescript-eslint/type-annotation-spacing": [
       "error",
       {
-        "before": true,
-        "after": true,
-        "overrides": {
-          "colon": {
-            "before": false,
-            "after": true
+        before: true,
+        after: true,
+        overrides: {
+          colon: {
+            before: false,
+            after: true
           }
         }
       }
-
     ],
     "@typescript-eslint/semi": ["error"],
-    "@typescript-eslint/array-type": ["warn", { "default": "generic"}],
-
+    "@typescript-eslint/array-type": ["warn", { default: "generic" }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
-}
+};
