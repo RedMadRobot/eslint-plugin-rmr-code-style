@@ -31,7 +31,7 @@ export default {
         ignore: [-1, 0, 1],
         ignoreArrayIndexes: true,
         enforceConst: true
-      }
+      },
     ],
     eqeqeq: "error",
     yoda: "error",
@@ -50,14 +50,18 @@ export default {
 
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "semi-style": "off",
 
     /**
      * TypeScript
      */
 
+    "@typescript-eslint/array-type": ["warn", { default: "generic" }],
     "@typescript-eslint/camelcase": "error",
     "@typescript-eslint/no-explicit-any": "warn",
-    "@typescript-eslint/no-floating-promises": "warn",
+    "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/prefer-includes": "error",
     "@typescript-eslint/promise-function-async": "error",
     "@typescript-eslint/require-await": "error",
@@ -75,9 +79,7 @@ export default {
         }
       }
     ],
+    "@typescript-eslint/consistent-type-definitions": ["warn", "type"],
     "@typescript-eslint/semi": ["error"],
-    "@typescript-eslint/array-type": ["warn", { default: "generic" }],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
   }
 };
