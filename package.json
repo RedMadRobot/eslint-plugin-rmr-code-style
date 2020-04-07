@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-rmr-code-style",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Правила оформления кода, принятые в RMR",
   "main": "dist/index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "@typescript-eslint/eslint-plugin-tslint": "^2.10.0",
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-react": "^7.17.0"
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^3.0.0"
   }
 }
