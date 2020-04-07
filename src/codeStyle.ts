@@ -19,7 +19,7 @@ export default {
     "eol-last": ["error", "always"],
     "max-len": ["error", {"code": 120}],
     "no-trailing-spaces": ["error"],
-    "semi": ["error", "always"],
+    "semi": "off",
     "prefer-const": ["error"],
     "no-var": "error",
     "quotes": ["error", "single"],
@@ -28,6 +28,7 @@ export default {
     "no-magic-numbers": [
       "warn",
       {
+        "ignore": [-1, 0, 1],
         "ignoreArrayIndexes": true,
         "enforceConst": true
       },
@@ -45,15 +46,21 @@ export default {
 
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "object-curly-spacing": ["warn", "never"],
+    "array-bracket-spacing":["warn", "never"],
+    "comma-dangle": ["warn", "always-multiline"],
+    "semi-style": "off",
 
     /**
      * TypeScript
      */
 
-    "@typescript-eslint/array-type": ["error", { "default": "generic" }],
+    "@typescript-eslint/array-type": ["warn", { "default": "generic" }],
     "@typescript-eslint/camelcase": "error",
     "@typescript-eslint/no-explicit-any": "warn",
-    "@typescript-eslint/no-floating-promises": "warn",
+    "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/prefer-includes": "error",
     "@typescript-eslint/promise-function-async": "error",
     "@typescript-eslint/require-await": "error",
@@ -61,9 +68,17 @@ export default {
     "@typescript-eslint/type-annotation-spacing": [
       "error",
       {
-        "before": false,
-        "after": true
+        "before": true,
+        "after": true,
+        "overrides": {
+          "colon": {
+            "before": false,
+            "after": true
+          }
+        }
       }
     ],
+    "@typescript-eslint/consistent-type-definitions": ["warn", "type"],
+    "@typescript-eslint/semi": ["warn"],
   }
 }
