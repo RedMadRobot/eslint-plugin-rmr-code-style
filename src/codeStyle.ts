@@ -50,6 +50,8 @@ export default {
 
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "react/jsx-closing-bracket-location": "error",
+    "react/jsx-one-expression-per-line": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "semi-style": "off",
