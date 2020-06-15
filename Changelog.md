@@ -1,3 +1,8 @@
+## 1.0.9 - 15 Jun 2020
+* Добавлена ошибка при нарушении правила [react/jsx-closing-bracket-location](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md)
+* Добавлена ошибка при нарушении правила [react/jsx-one-expression-per-line](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md)
+
+
 ## 1.0.5 - 24 Dec 2019
 * Исправлено правило `no-magic-numbers` - теперь оно позволяет использовать -1, 0 и 1 в качестве значений
 * Добавлено предупреждение при использовании пробелов внутри объекта
