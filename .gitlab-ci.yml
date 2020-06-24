@@ -1,0 +1,29 @@
+image: node:latest
+
+variables:
+  REGISTRY: registry.redmadrobot.com:5005
+  NPM_REGISTRY: https://nexus.redmadrobot.com/repository/npm-group/
+
+stages:
+  - publish
+  - notify
+
+publish:
+  stage: publish
+  script:
+    - npm publish
+  tags:
+    - frontend-docker
+  only:
+    - tags
+
+notify:
+  stage: notify
+  script:
+    - npx notify
+  tags:
+    - frontend-docker
+  only:
+    - tags
+  dependencies:
+    - publish

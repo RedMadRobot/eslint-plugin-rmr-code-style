@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rmr/notify": "^1.0.5",
     "typescript": "^3.7.3"
   },
   "publishConfig": {
