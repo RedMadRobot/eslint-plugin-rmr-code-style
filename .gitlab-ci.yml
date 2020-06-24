@@ -4,6 +4,10 @@ variables:
   REGISTRY: registry.redmadrobot.com:5005
   NPM_REGISTRY: https://nexus.redmadrobot.com/repository/npm-group/
 
+before_script:
+  - npm config set registry https://nexus.redmadrobot.com/repository/npm-group/
+  - npm config set _auth "${CI_NPM_AUTH}"
+
 stages:
   - publish
   - notify
