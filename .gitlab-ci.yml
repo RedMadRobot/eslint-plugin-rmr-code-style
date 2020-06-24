@@ -11,6 +11,7 @@ stages:
 publish:
   stage: publish
   script:
+    - npm build
     - npm publish
   tags:
     - frontend-docker

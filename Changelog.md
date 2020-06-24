@@ -1,3 +1,6 @@
+## 1.0.10 - 24 Jun 2020
+* Добавлен notify и gitlab-ci конфиг
+
 ## 1.0.9 - 15 Jun 2020
 * Добавлена ошибка при нарушении правила [react/jsx-closing-bracket-location](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md)
 * Добавлена ошибка при нарушении правила [react/jsx-one-expression-per-line](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md)
