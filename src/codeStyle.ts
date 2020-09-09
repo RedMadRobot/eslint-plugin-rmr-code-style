@@ -1,5 +1,13 @@
 export default {
-  plugins: ["react", "@typescript-eslint", "import"],
+  extends: [
+  ],
+  plugins: [
+    "react",
+    "@typescript-eslint",
+    "import",
+    "react-hooks",
+    "prettier"
+  ],
   rules: {
     /**
      * ES6
@@ -17,7 +25,7 @@ export default {
     ],
     "linebreak-style": ["error", "unix"],
     "eol-last": ["error", "always"],
-    "max-len": ["error", { code: 120 }],
+    "max-len": ["warn", { code: 120 }],
     "no-trailing-spaces": ["error"],
     semi: "off",
     "prefer-const": ["error"],
@@ -83,5 +91,6 @@ export default {
     ],
     "@typescript-eslint/consistent-type-definitions": ["warn", "type"],
     "@typescript-eslint/semi": ["error"],
+    "import/order": ["error"]
   }
 };
