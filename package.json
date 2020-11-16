@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-rmr-code-style",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Правила оформления кода, принятые в RMR",
   "main": "dist/index.js",
   "scripts": {
@@ -15,18 +15,18 @@
   "license": "ISC",
   "devDependencies": {
     "@rmr/notify": "^1.0.5",
-    "typescript": "^3.9.7"
+    "eslint": "^7.13.0",
+    "typescript": "^4.0.5"
   },
   "publishConfig": {
     "registry": "https://nexus.redmadrobot.com/repository/npm-private/"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^2.34.0",
-    "@typescript-eslint/parser": "^3.10.1",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
     "eslint-import-resolver-typescript": "^2.3.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-react-hooks": "^4.1.0"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
