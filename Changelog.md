@@ -1,23 +1,26 @@
+## 2.0.1 - 23 Nov 2020
+* Updated all dependencies
+
 ## 1.1.0 - 9 Sep 2020
-* Добавлен плагин для импортов
+* Added eslint-import plugin
 
 ## 1.0.12 - 1 Jul 2020
-* Добавлен недостающий пакет
+* Added missing package
 
 ## 1.0.11 - 24 Jun 2020
-* Добавлен notify и gitlab-ci конфиг
+* Added notify into gitlab-ci config
 
 ## 1.0.9 - 15 Jun 2020
-* Добавлена ошибка при нарушении правила [react/jsx-closing-bracket-location](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md)
-* Добавлена ошибка при нарушении правила [react/jsx-one-expression-per-line](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md)
+* Added rule [react/jsx-closing-bracket-location](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md)
+* Added rule [react/jsx-one-expression-per-line](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md)
 
 
 ## 1.0.5 - 24 Dec 2019
-* Исправлено правило `no-magic-numbers` - теперь оно позволяет использовать -1, 0 и 1 в качестве значений
-* Добавлено предупреждение при использовании пробелов внутри объекта
-* Добавлено предупреждение при использовании пробелов внутри массива
-* Добавлено предупреждение при отсутствии запятой у последнего элемента массива
-* Добавлено предупреждение при использовании `Item[]` вместо `Array<Item>`
+* Fixed rule `no-magic-numbers` - it allows -1, 0 and 1 as possible values
+* Added warning for spaces in curly breackets
+* Added warning for spaces in square breackets
+* Added warning for missing comma in array
+* Added warning for using `Item[]` instead of `Array<Item>`
 
 ## 1.0.4 - 21 Dec 2019
-* Удалено правило @typescript-eslint/consistent-type-definitions
+* Removed rule @typescript-eslint/consistent-type-definitions
