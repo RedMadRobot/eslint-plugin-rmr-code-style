@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish",
+    "publish": "npm build && npm publish",
     "build": "tsc -b tsconfig.json"
   },
   "repository": {
