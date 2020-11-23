@@ -1,4 +1,4 @@
-image: node:latest
+image: node:13.6.0-buster
 
 variables:
   REGISTRY: registry.redmadrobot.com:5005
