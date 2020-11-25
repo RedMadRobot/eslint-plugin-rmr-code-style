@@ -1,5 +1,6 @@
-## 2.0.1 - 23 Nov 2020
+## 2.0.3 - 25 Nov 2020
 * Updated all dependencies
+* Removed @typescript-eslint/camelcase rule
 
 ## 1.1.0 - 9 Sep 2020
 * Added eslint-import plugin

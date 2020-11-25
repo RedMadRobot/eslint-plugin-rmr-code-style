@@ -69,7 +69,6 @@ export default {
      */
 
     "@typescript-eslint/array-type": ["warn", { default: "generic" }],
-    "@typescript-eslint/camelcase": "error",
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/prefer-includes": "error",
