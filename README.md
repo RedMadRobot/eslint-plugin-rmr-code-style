@@ -1,6 +1,10 @@
 # Использование конфига eslint
 ```
-npm i -D eslint-plugin-rmr-code-style
+npm i -D eslint-plugin-rmr-code-style \
+         eslint-plugin-jest@latest \
+         eslint-plugin-react@latest \
+         eslint-plugin-import@latest \
+         eslint-plugin-prettier@latest
 ```
 
 В файле `.eslintrc`:
