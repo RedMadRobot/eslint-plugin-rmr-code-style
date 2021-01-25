@@ -10,7 +10,7 @@ npm i -D @rmr/eslint-plugin-rmr-code-style \
 В файле `.eslintrc`:
 ```json
 "extends": [
-    "plugin:rmr-code-style/config"
+    "plugin:@rmr/rmr-code-style/config"
 ],
 ```
 
