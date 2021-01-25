@@ -1,8 +1,14 @@
 export default {
   extends: [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jest/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/@typescript-eslint"
   ],
   plugins: [
     "react",
+    "jest",
     "@typescript-eslint",
     "import",
     "react-hooks",
@@ -13,16 +19,6 @@ export default {
      * ES6
      */
 
-    indent: [
-      "error",
-      2,
-      {
-        SwitchCase: 1,
-        MemberExpression: 1,
-        ArrayExpression: 1,
-        ObjectExpression: 1
-      }
-    ],
     "linebreak-style": ["error", "unix"],
     "eol-last": ["error", "always"],
     "max-len": ["warn", { code: 120 }],
@@ -59,7 +55,7 @@ export default {
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/jsx-closing-bracket-location": "error",
-    "react/jsx-one-expression-per-line": "error",
+    "react/jsx-one-expression-per-line": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "semi-style": "off",
@@ -75,6 +71,11 @@ export default {
     "@typescript-eslint/promise-function-async": "error",
     "@typescript-eslint/require-await": "error",
     "@typescript-eslint/no-unused-vars": [2, { args: "none" }],
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-empty-function": "warn",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/ban-ts-ignore": "warn",
     "@typescript-eslint/type-annotation-spacing": [
       "error",
       {
@@ -90,6 +91,6 @@ export default {
     ],
     "@typescript-eslint/consistent-type-definitions": ["warn", "type"],
     "@typescript-eslint/semi": ["error"],
-    "import/order": ["error"]
+    "import/order": ["warn"]
   }
 };

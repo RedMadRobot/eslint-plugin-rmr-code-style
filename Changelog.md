@@ -1,3 +1,8 @@
+## 3.0.0 - 25 Mon 2021
+* Published in global npm
+* Removed tsconfig
+* Updated few rules
+
 ## 2.0.3 - 25 Nov 2020
 * Updated all dependencies
 * Removed @typescript-eslint/camelcase rule
