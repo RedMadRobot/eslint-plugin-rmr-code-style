@@ -75,7 +75,6 @@ export default {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-empty-function": "warn",
     "@typescript-eslint/no-inferrable-types": "off",
-    "@typescript-eslint/ban-ts-ignore": "warn",
     "@typescript-eslint/type-annotation-spacing": [
       "error",
       {

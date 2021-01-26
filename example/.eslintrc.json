@@ -12,7 +12,7 @@
       "version": "detect"
     }
   },
-  "extends": ["plugin:rmr-code-style/config"],
+  "extends": ["plugin:@rmr/rmr-code-style/config"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json",
