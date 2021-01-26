@@ -5,7 +5,9 @@ npm i -D @rmr/eslint-plugin-rmr-code-style \
          eslint-plugin-react@latest \
          eslint-plugin-import@latest \
          eslint-plugin-prettier@latest \
-         eslint-config-prettier@latest
+         eslint-config-prettier@latest \
+         @typescript-eslint/eslint-plugin \
+         eslint-plugin-react-hooks@latest 
 ```
 
 В файле `.eslintrc`:
