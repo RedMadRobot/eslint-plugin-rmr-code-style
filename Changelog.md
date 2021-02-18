@@ -1,3 +1,6 @@
+## 3.0.2 - 18 Feb 2021
+* Added rule for UPPER_CASE members of enum
+
 ## 3.0.0 - 25 Mon 2021
 * Published in global npm
 * Removed tsconfig

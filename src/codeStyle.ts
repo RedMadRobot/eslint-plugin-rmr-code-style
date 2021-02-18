@@ -63,7 +63,13 @@ export default {
     /**
      * TypeScript
      */
-
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "enumMember",
+        "format": ["UPPER_CASE"]
+      }
+    ],
     "@typescript-eslint/array-type": ["warn", { default: "generic" }],
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-floating-promises": "off",
