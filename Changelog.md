@@ -1,3 +1,6 @@
+## 3.0.4 - 25 Jun 2021
+* Fixed "extend" field for prettier config
+
 ## 3.0.2 - 18 Feb 2021
 * Added rule for UPPER_CASE members of enum
 

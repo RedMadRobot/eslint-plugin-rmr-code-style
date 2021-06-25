@@ -3,8 +3,6 @@ export default {
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint"
   ],
   plugins: [
     "react",

@@ -12,9 +12,16 @@ npm i -D @rmr/eslint-plugin-rmr-code-style \
 
 В файле `.eslintrc`:
 ```json
-"extends": [
-    "plugin:@rmr/rmr-code-style/config"
-],
+{
+    "extends": [
+        "plugin:@rmr/rmr-code-style/config"
+    ]
+}
 ```
 
-[Пример полного конфига](https://git.redmadrobot.com/web-frontend/docs/code-style/blob/master/example/.eslintrc.json)
+[Пример полного конфига](https://github.com/RedMadRobot/eslint-plugin-rmr-code-style/blob/master/example/.eslintrc.json)
+
+# Публикация
+```shell
+npm run build && npm publish
+```
