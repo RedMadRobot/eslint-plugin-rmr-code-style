@@ -1,3 +1,6 @@
+## 4.0.0 - 10 Nov 2022
+* Updated all dependencies
+
 ## 3.0.4 - 25 Jun 2021
 * Fixed "extend" field for prettier config
 

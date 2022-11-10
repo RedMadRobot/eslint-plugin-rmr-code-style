@@ -1,6 +1,6 @@
 {
   "name": "@rmr/eslint-plugin-rmr-code-style",
-  "version": "3.0.4",
+  "version": "4.0.0",
   "description": "Правила оформления кода, принятые в RMR",
   "main": "dist/index.js",
   "scripts": {
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.13.0"
+    "eslint": "^8.27.0"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^4.7.0"
+    "@typescript-eslint/parser": "^5.42.1"
   }
 }
